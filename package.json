@@ -1,0 +1,23 @@
+{
+  "name": "fauzanjm_assignment",
+  "version": "1.0.0",
+  "description": "individual assignment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "fauzanJumdinhar",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest",
+    "sequelize-cli": "^6.6.1"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mysql2": "^3.6.2",
+    "sequelize": "^6.33.0"
+  }
+}
